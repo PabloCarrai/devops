@@ -1,0 +1,26 @@
+#   Clase-3
+#   25/3/26
+
+Factores claves en devops
+    determinar necesidades y propositos de la org.
+    sponsor en la org
+    alinear objetivos, incentivos y premios
+    equipos auto organizados y multidisciplinario
+    identificar productos de impacto al negocio y bajo riesgo
+    diseñar sistemas resilientes a fallas
+    estandares de desarrollo y calidad. 
+    metricas de negocios y de desarrollo. 
+
+Practicas y tecnicas, por donde arranca. 
+    versionar codigo. 
+    generar un build(automatizar)
+    integracion continua (Es una practica de desarrollo, 
+                         es integrar codigo continuamente
+                         Por lo menos una ves al dia)
+    unit testing / tdd
+    automatizar regresiones(otra capa testing en un orquestador)
+    analisis estatico de codigo fuente(sonarqube)
+    iac & cac (infraestructura como codigo, configuracion como codigo)
+    arquitectura y diseño evolutivo
+    monitoreo y alertas
+    sre / chaos engineering
