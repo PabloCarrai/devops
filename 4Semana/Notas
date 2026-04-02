@@ -1,0 +1,63 @@
+#   Clase-4
+#   1/4/26
+
+TDD
+    que no es?
+        no es algo sobre testing
+        no es automatizacion de pruebas. 
+        no es algo parecido a unit testing
+        no es algo que hace google
+
+TDD es una tecnica para desarrollar software que guia
+su desarrollo escribiendo pruebas(Martin Flowler)
+
+    Que es?
+        Tecnica de desarrollo que ayuda a los desarrolladores algo
+        obtener feedback inmediatamente sobre el diseño de software
+        y el progreso en el desarrollo. 
+
+
+TDD > Conociendo el problema
+Desicion de diseño > brecha > feedback
+
+El feedback se obtiene
+Obtengo solo cuando puedo ejecutar mi diseño de app. 
+
+Que resultados se obtienen de TDD?
+    Buen diseño de desarrollo de software
+    Una manera de pensar y resolver problematicas
+    complejas en pequeños pasos. 
+    Se generan menos desperdicios. 
+    Al escribir las pruebas, tengo mejoras en estos cambios
+    ya que tengo las pruebas.
+
+TDD
+    Reglas
+    1) Escribir una prueba automatizada antes que escribir
+    cualquier otro codigo. La prueba tiene que fallar. 
+    2) Eliminar duplicacion
+
+TDD disminuir el miedo al cambio
+    RED/GREEN/REFACTOR
+
+TDD Ciclo feedback
+    Pensar en diseño. 
+    Escribir una prueba que falle
+    Escribir el codigo
+    Escribir el codigo mas simple para que pase la prueba
+    Refactoring(dry,solid)
+    Elimina duplicacion
+        Las pruebas no cambian, sino el codigo 
+
+TDD Estrategias
+1) Falsear- Retornar constantes y gradualmente
+reemplazarlas por variables hasta obtener el 
+codigo final
+2) Implementacion Obvia. Escribir directamente la
+Implementacion real. 
+3) Triangulacion- Ir de pruebas sencillas a mas complejas
+hasta completar todo el escenario
+
+Cada lenguaje tiene su manera de hacer pruebas unitarias
+Las pruebas no son suficiente para evitar que un flujo
+rompa. 
