@@ -1,3 +1,96 @@
 #   Clase-5
-#   8/4/26
+#   15/4/26
 
+Cultura y pactica para establecer 
+un flujo continuo de entrega de valor
+
+El valor se determina si el usuario lo usa. 
+Con eso tenemos un feedback.
+
+Lean(algo magro) software development, evitar las mudas, 
+lo que no sirve. 
+
+Cultura devops
+    comunicacion abierta
+    alineacion de objetivos e incentivos
+    respeto
+    confianza
+
+Cutura dev
+    features
+    velocidad
+    responsabilidad sobre impacto
+
+Cultura ops
+    control de cambio
+    responsabilidad sobre impacto
+    contexto sobre lo que se implementa
+
+Devops alinear objetivos
+lead time
+deployment frecuency
+    velocidad de respuesta ante cambios(mas peso a desarrollo)
+mean time to recovery
+change failure rate
+    estabilidad del sistema ante cambios(mas peso a operaciones)
+
+devops
+    +velocidad
+    +calidad
+
+calidad
+    excelencia tecnica/calidad
+    practica/tecnica extreme programing
+    mejora continua en el proceso
+
+devops
+    sistemas complejos
+    improvement kata(mejora de procesos)
+    las personas crean y ejecutan las ideas
+
+devops
+    no culpar cuando las cosas salen mal
+    lideres deciden los resultados esperados
+    las personas deciden como hacerlo
+
+devops continuos delivery
+    entender porque queremos cambiar
+    obtener objetivos medibles con foco en el usuario
+    foco en cultura y arq(no herramientas,metodologia o cambio org)
+    la organizacion tiene que aprender a mejorar(continuamente)
+
+devops continous delivery porque?
+    releases menos dolorosos, menor riesgo
+    reducir time to market
+    incrementar la calidad
+    ahorro del costo operacional en el desarrollo
+    reducir el ciclo de feedback
+
+devops continuos delivery
+    configuration management
+    integracion continua
+    test automatizados
+
+Estrategias de implementacion
+    que tipo de feedback necesito del usuario?
+    que cantidad?
+    como disminuir el riesgo?
+
+Estrategias de implementacion
+    blue/green
+        son dos ambientes, uno conectado publico y el otro interno. Se cambia
+        entre uno y el otro para hacerlo publico. 
+    release canary
+        aca son varios nodos, y se va liberando esos nodos a medida que 
+        los nuevos deploy van andando. Se libera de a poco
+    feature toogle/flag
+        tengo una variable que switchea entre lo nuevo y lo viejo
+    dark launch/dark loading
+        lanza funcionalidad oculta, el usuario no la ve. Pero esta conectada.
+        lo mismo pero a nivel base de datos
+
+donde poner foco
+    automatizar para encontrar problemas rapidos
+    trabajar en porciones/piezas pequeñas
+    medir y mejorar resultados de los usuarios
+    usar la mejora continua para estar un poco mejor que ayer
